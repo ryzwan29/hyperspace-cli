@@ -61,5 +61,3 @@ screen -dmS start-aioscli-config bash -c "
 "
 
 echo "Script selesai. Screen sessions 'ctivate-aioscli' dan 'start-aioscli-config' telah dibuat."
-
-
