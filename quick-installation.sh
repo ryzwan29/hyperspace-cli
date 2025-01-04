@@ -44,11 +44,11 @@ fi
 
 # Membuat screen session a
 echo "Membuat screen session 'a'..."
-screen -dmS a bash -c "source ~/.bashrc && aios-cli start; exec bash"
+screen -dmS activate-aioscli bash -c "source ~/.bashrc && aios-cli start; exec bash"
 
 # Membuat screen session b dengan tambahan perintah
 echo "Membuat screen session 'activate-aioscli-wallet'..."
-screen -dmS activate-aioscli-wallet bash -c "
+screen -dmS start-aioscli-config bash -c "
     source ~/.bashrc &&
     aios-cli hive import-keys ./hyperspace-key.pem &&
     aios-cli models add hf:afrideva/Tiny-Vicuna-1B-GGUF &&
