@@ -60,6 +60,6 @@ screen -dmS start-aioscli-config bash -c "
     exec bash
 "
 
-echo "Script selesai. Screen sessions 'a' dan 'activate-aioscli-wallet' telah dibuat."
+echo "Script selesai. Screen sessions 'ctivate-aioscli' dan 'start-aioscli-config' telah dibuat."
 
 
