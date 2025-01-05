@@ -20,7 +20,7 @@ curl -s https://download.hyper.space/api/install | bash
 source /root/.bashrc
 
 # Meminta pengguna untuk memasukkan nama screen
-screen_name="start-hyperspace-aioscli"
+screen_name=start-hyperspace-aioscli
 
 # 1. Membuat sesi screen dengan nama "$screen_name"
 echo -e "\033[1;34m[1/7] Membuat sesi screen dengan nama '$screen_name'...\033[0m"
